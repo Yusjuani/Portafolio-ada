@@ -146,6 +146,7 @@
     width: 600px;
     height: 500px;
     
+    
 
 }
 
@@ -192,18 +193,12 @@
     border-radius: 8px;
     margin-bottom: 20px;
     padding: 20px 75px 20px 75px;
- 
     
-   /* font-size: 4.71em;
-    margin-top: 24px;
-    margin-bottom: 20px;
-    display: block;
-    transition: 0.3s;
-    width: 260px;
-    height:200px;
-    background-color: #b0b0e0;
-    border-radius: 8px;*/
-    
+}
+
+.grid:hover{
+    border: 1px solid #3bf063;
+    color:rgb(7, 250, 7);
 }
 
 .caja{
@@ -214,24 +209,7 @@
     flex-flow: wrap;
     margin-top: -80px;
     margin-bottom: 20px;
-    /*display: flex;
-    flex-wrap: wrap;
-    color: #2e2e31;
-    padding: 40px 20px;
-    background-color: #fff;
-    border: 1px solid #dddfe5;
-    border-radius: 8px;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin: 10px;
-    width: 260px;
-    padding: 30px;
-    transition: 0.2s;
-    
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    margin: 10px;*/
+   
 }
 
 .caja2{
@@ -253,4 +231,69 @@
     margin-bottom: 20px;
     display: block;
     transition: 0.3s;
+
+
+}
+
+/*section 3*/
+
+.section3{
+
+    height: 578px ;
+    width: 1349px;
+    background-color: rgb(24, 100, 24);
+    text-align: center;
+    padding: 130px 40px 130px 40px;
+    
+}
+
+.texto{
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    width: 781px;
+    margin-left: 250px;
+    margin-top: 40px;
+    
+}
+
+.by{
+
+     margin-top: 40px;
+     color: #fff;
+     font-weight: 900px;
+}
+
+.img2{
+
+    height: 120px;
+    width: 120px;
+
+}
+
+.section4{
+    background-color: #f6f7fb;
+    width: 1349px;
+    height: 984px;
+    padding: 110px 40px 130px;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+}
+
+.grid2{
+
+    width:348px;
+    height:348px;
+    padding-top: 500px;
+    /*margin-top: 200px;
+    margin:12px 12px 12px 12px;
+    background-color: #fff;
+    border: 1px solid #dddfe5;
+    
+    transition: 0.3s;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;*/
 }
