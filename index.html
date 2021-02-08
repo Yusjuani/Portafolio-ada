@@ -152,78 +152,63 @@
 
 
 <!-- seccion 5 -->
-
 <div class="section5">
-     <section> 
-<div class="contact">
-
-    <h2 class="conocimientos font">Contactame</h2>
-    <p class="parrafo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit libero exercitationem quas. Cumque distinctio enim, ullam repudiandae vitae est nemo saepe magni. Facere, illum. Ratione temporibus incidunt libero ea nostrum.</p>
-   
-   <ul class=".contact-social-link">
-       <li>
-           <i  class="fa fa-linkedin-square" aria-hidden="true"></i>
-           <a href="https://cutt.ly/gj8h6cH">Linkedin</a>
-       </li>
-       <li>
-           <i class="fa fa-envelope" aria-hidden="true"></i>
-           <a href class="veroyusjuani@gmail.com">Veroyusjuani@gmail.com</a>
-       </li>
-       <li>
-           <i class="fa fa-twitter-square" aria-hidden="true"></i>
-           <a href="https://twitter.com/">Twitter</a>
-
-       </li>
-       <li>
-           <i class="fa fa-github" aria-hidden="true"></i>
-           <a href="https://github.com/">GiThub</a>
-       </li>
-    </ul>
-</div>
+    <section> 
+<div class=" contenedor">
+    <div>
+        <h2 class="font conocimientos">Contáctame</h2>
+        <p class="info p-contacto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum voluptas, vel quas tempore quos sint molestias. Illum ex numquam amet, aperiam voluptatem labore hic explicabo laudantium ipsa beatae, repellendus veritatis.</p>
+    <div class="flexarea">
+        <i class="social-link fa fa-github"> veronohime </i>
+        <i class="social-link fa fa-linkedin-square"> Verónica Hernández</i>
+        <i class="social-link fa fa-envelope"> veroyusjuani@gmail.com</i>
+        <i class="social-link fa fa-twitter-square"> veronohime</i>
+    </div>
+    
+    
+    </div> 
 
 
 <!--Formulario -->
+<div class="formulario">
+   <h2 class="  conocimientos font">Escribeme</h2>
+<form>
+    <div class="formnombreapellido">
+     <div class="formnombre">
+         <label for="idNombre"> Nombre*</label>
+         <input class="control" type="text" name="nombre" id="idNombre"
+         placeholder="p. eje.: Verónica" arial-label="nombre"
+         required>
+        </div>
+    <div class="formapellido">
+        <label for="idApellido"> Apellido*</label>
+        <input class="control" type="text" name="apellido" id="idApellido"
+        placeholder="p. ej.: Hernández" aria-label="Apellido"
+        required>   
+        </div>
+    </div>
 
+    <div class="formEmail">
+        <label for="idEmail"> Email*</label>
+        <input class="control" type="email" name="email" id="idemail"
+        placeholder="p. ej.: veroyusjuani@gmail.com"
+        aria-label="Email" required>
+        </div>
+    <div class="formtexto">
+        <label for="idMensaje"> Mensaje*</label>
+        <textarea class="control" name="mensaje" id="idMensaje"
+        cols="30" rows="9"
+        placeholder="Escriba un mensaje aquí"
+        aria-label="Mensaje"
+        required></textarea>
+    </div>
 
-<div>
-    <ul class="formulario">
-       <h2 class=" conocimientos font">Escribeme</h2>
-<div >
-    <form>
-    <li class="row label">
-    
-        <label for="firstname">Nombre*</label> 
-        <input  class="control" type="text" name="nombres" id="Nombres" placeholder="P. Eje.: Verónica">
-        <label for="secondname">Apellido*</label> 
-        <input class="control" type="text" name="nombres" id="Apellidos" placeholder="P. Eje.: Hernández">
-    </li>
-</div>  
-<div>
-    <li class="label width ">
-        <label for="email">Correo*</label> <br>
-        <input  class="control" type="text" id="Correo" placeholder="P. Eje.: Veroyusjuani@gmail.com">
-    </li>
-</div>  
-<div>    
-    <li class="label width">
-        <label for="text">Mensaje*</label> <br>
-        <textarea  type="text" id="Comentario"  cols="30" rows="10"placeholder="Ingresa tu Mensaje"></textarea>
-    </li>
- 
-    <li class="botons"><input  class="Botons" type="submit" value="Enviar">
-    </li>
-</div> 
-</ul>
-
-</div> 
-
-
-
-  </form>    
+    <button type="submit" class="button enviar">
+        Enviar
+      </button>
+</form>
 </div>
 </div>
-</div>
-
 </section>
 </div>
 
@@ -241,7 +226,7 @@
 
 
 
-<!--
+
 <div class="footer">
 <footer>
     <ul class="displayflex">
@@ -251,22 +236,14 @@
         <li class="nav-item padding">CONTACTO</li>
     </ul>      
 
-<ul>
-    <li>
-        <i  class="fa fa-linkedin-square" aria-hidden="true"></i>
-    </li>
-    <li>
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-    </li>
-    <li>
-        <i class="fa fa-twitter-square" aria-hidden="true"></i>
-    </li>
-    <li>
-        <i class="fa fa-github" aria-hidden="true"></i>
-    </li>
-</ul>
+    <div class="displayflex">
+        <i class=" footer2 social-link fa fa-github"> </i>
+        <i class=" footer2 social-link fa fa-linkedin-square"> </i>
+        <i class=" footer2 social-link fa fa-envelope"> </i>
+        <i class=" footer2 social-link fa fa-twitter-square"> </i>
+    </div>
 
-<p class="font">Hecho por Verónica Hernández</p>
+<p class="pie">Hecho por Verónica Hernández ❤️</p>
 
 </footer>
 </div>
