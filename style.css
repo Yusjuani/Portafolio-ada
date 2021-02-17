@@ -331,8 +331,9 @@
 .flexarea{
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: flex-start;
       padding: 10px 10px 10px 10px;
+      margin:10px;
      
 
 }
@@ -340,7 +341,7 @@
     width: 15%;
     border: 1px solid #64A8ED;;
     border-radius: 50%;
-    display: flex;
+    display: block;
     justify-content: row;
     color:#64A8ED;
     cursor: pointer;
@@ -352,7 +353,9 @@
     display: flex;
     align-items: center;
     padding: 5px 10px 20px;
-    border-radius: 100px;
+    border-radius: 50%;
+
+   
     
     
 }
@@ -423,7 +426,7 @@
     justify-content: flex-end;
     padding: 10px 10px 10px 10px;
     margin-left: 250px;
-  
+   
    
 }
 
@@ -477,6 +480,7 @@
     background-color: #64A8ED;;
     color: white;
     width: 100%;
+    
 
   
 }
@@ -500,29 +504,38 @@
     
 }
 
-/*@media screen and (max-width:360px){
+@media screen and (max-width:560px){
     
+    *{
+        box-sizing: border-box;
+        overflow-x:hidden;
+    }
     .header{
-       width: 50%;
+       
+        flex:none;
+        width: auto;
     }
     
     .body{
-        margin: 0;
-        height: 100%;
-        width: 100%;
+       
+        height: auto;
+        width: auto;
+       
+     
     }
         
-    }
     .displayflex{
 
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        
     }
+    
     
     .section{
         text-align: start;
-        margin-left: 0;
+        width: auto;
         
     }
     
@@ -530,11 +543,12 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin-left: 0;
+        width: auto;
+        overflow-x:hidden;
 
     }
     .information{
-        flex-direction: center;
+        flex-direction: flex-start;
     }
 
     .section2{
@@ -545,11 +559,11 @@
         text-align:center; 
         width: 100%;
         
-        
     }
 
     .imagen{
-        margin-left: -200px;
+       
+        width:300px;
     }
     
     .conocimientos{
@@ -563,7 +577,7 @@
        display: flex;
        flex-direction: column;
        justify-content: flex-start; 
-       margin-left: 80px;
+       
     }
     
     .caja{
@@ -638,9 +652,13 @@
             
     }
 
-    .font{
-        margin-left: 20px;
+    .formnombreapellido{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
     }
+
+   
 
     .footer{
         display: flex;
@@ -652,4 +670,4 @@
     }
 }
 
-*/
+
