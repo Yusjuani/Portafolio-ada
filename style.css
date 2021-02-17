@@ -25,6 +25,7 @@
 .padding{
     padding-top: 12px;
     padding-left: 15px;
+  
 }
 
 
@@ -42,7 +43,7 @@
     border: 1px solid #64A8ED;
     border-radius: 25px;
     box-shadow: 2px 2px 2px 1px solid#64A8ED;
-
+    
 }
 
 .boton{
@@ -337,27 +338,40 @@
      
 
 }
-.fa:hover{
-    width: 15%;
-    border: 1px solid #64A8ED;;
-    border-radius: 50%;
-    display: block;
-    justify-content: row;
-    color:#64A8ED;
-    cursor: pointer;
-    box-shadow: 5px 5px 5px 5px solid white;
-    
 
-}
 .social-link{
     display: flex;
     align-items: center;
     padding: 5px 10px 20px;
     border-radius: 50%;
+    width: 15%;
+}
 
+.social-link:hover{
+
+    background-color:#64A8ED;
+    border-radius: 50%;
+    color:#fff;
+    width: 15%;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+
+.hola{
+   padding-left: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
    
-    
-    
+
+}
+
+.hola:hover{
+    color:#64A8ED;
+    cursor: pointer;
+
 }
 .info{
 
@@ -381,6 +395,7 @@
 .formnombreapellido{
     display: flex;
     flex-direction: row;
+   
     
 }
 
@@ -477,7 +492,7 @@
     justify-content: center;
     align-items: center;
     padding: 80px 20px 60px 30px;
-    background-color: #64A8ED;;
+    background-color: #64A8ED;
     color: white;
     width: 100%;
     
@@ -485,30 +500,56 @@
   
 }
 
+.f{
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
 .pie{
 
     text-align: center;
     font-size: 1.2em;
+    padding-top: 30px;
+}
+ .pie2{
+
+    cursor:pointer;
+ }
+
+.footer2{
+
+    display: block;
+    width: 2.7rem;
+    height: 2.7rem;
+    background-color: white;
+    color:#64A8ED;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    line-height: 2.7rem;
+    text-align: center;
+    transition: 0.1s;
+    margin-top: 20px;
+
 }
 
 .footer2:hover{
 
-    width: 10%;
-    border: 1px solid white;
-    border-radius: 50%;
-    display: flex;
-    justify-content: row;
-    color:#64A8ED;
+    background-color: #64A8ED;
+    color:#fff;
     cursor: pointer;
-    box-shadow: 5px 5px 5px 5px solid white;
-    
+    border: 1px solid #fff;
+    border-radius: 50%;
+   
 }
+
+    
 
 @media screen and (max-width:560px){
     
     *{
         box-sizing: border-box;
         overflow-x:hidden;
+        margin:0;
     }
     .header{
        
@@ -536,6 +577,7 @@
     .section{
         text-align: start;
         width: auto;
+        margin-left: -150px;
         
     }
     
@@ -570,37 +612,48 @@
        display: flex;
        flex-direction: column;
        justify-content: flex-start;
-       margin-left: -500px;
+       margin-left: -750px;
+       font-size: 40px;
+       width: auto;
+
+
     }
 
     .parrafo{
        display: flex;
        flex-direction: column;
-       justify-content: flex-start; 
-       
+       justify-content: flex-start;
+      
+      
     }
     
     .caja{
     
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: wrap;
+      margin-top: 40px;
        
        
     }
     
     .caja2{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: wrap;
         margin-top: 40px;
        
     }
 
     .section3{
-
+        display:flex;
         flex-direction: column;
         justify-content: flex-start;
+        text-align: center;
         margin-left: -300px;
+        width: auto;
+
+        
     }
     
     .section4{
@@ -608,13 +661,14 @@
         justify-content: flex-start;
         margin-left: -100px;
         height: auto;
+        width: auto;
     }
     .grid2{
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 100%;
+    width: 300px;
    
 }
     .caja3{
@@ -627,7 +681,7 @@
     .section5{
         flex-direction: column;
         justify-content: flex-start;
-        margin-left: 100px;
+        margin-left: -100px;
         height: auto;
         width: auto;
     }
@@ -662,7 +716,7 @@
 
     .footer{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start;
         
