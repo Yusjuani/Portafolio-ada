@@ -24,7 +24,6 @@
   
 }
 
-
 .displayflex{
 
     display: flex;
@@ -153,7 +152,6 @@
     height: 90%;
     
 }
- 
 
 
 /*segunda parte*/
@@ -179,8 +177,11 @@
     height: 229px;
     width: 400px;
     display: block;
-    margin-left: 350px;
-    margin-top: 40px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+
+    
 }
 
 .grid{
@@ -208,7 +209,6 @@
     flex-direction: row;
     justify-content: space-around;
     flex-flow: wrap;
-    margin-top: -80px;
     margin-bottom: 20px;
    
 }
@@ -252,10 +252,9 @@
     line-height: 26px;
     text-align: center;
     color: #fff;
-    width: 781px;
-    margin-left: 250px;
-    margin-top: 40px;
-    
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 1rem;
 }
 
 .by{
@@ -275,7 +274,6 @@
 
 .section4{
     background-color: #f6f7fb;
-    
     padding: 130px 110px 130px;
     display: flex;
     justify-content: center;
@@ -483,6 +481,7 @@
     background-color: #64A8ED;
     color: white;
     width: 100%;
+   
     
 
   
@@ -491,6 +490,8 @@
 .f{
     padding-top: 20px;
     padding-bottom: 20px; 
+   
+
 }
 
 .pie{
@@ -517,7 +518,7 @@
     text-align: center;
     transition: 0.1s;
     margin-top: 20px;
-
+    margin: 0 auto;
 }
 
 .footer2:hover{
@@ -565,7 +566,7 @@
     .section{
         text-align: start;
         width: auto;
-        margin-left: -150px;
+        
         
     }
     
@@ -600,7 +601,6 @@
        display: flex;
        flex-direction: column;
        justify-content: flex-start;
-       margin-left: -750px;
        font-size: 40px;
        width: auto;
 
@@ -637,8 +637,7 @@
         display:flex;
         flex-direction: column;
         justify-content: flex-start;
-        text-align: center;
-        margin-left: -300px;
+        text-align: center;  
         width: auto;
 
         
@@ -647,7 +646,6 @@
     .section4{
         flex-direction: column;
         justify-content: flex-start;
-        margin-left: -100px;
         height: auto;
         width: auto;
     }
@@ -669,7 +667,6 @@
     .section5{
         flex-direction: column;
         justify-content: flex-start;
-        margin-left: -100px;
         height: auto;
         width: auto;
     }
@@ -690,7 +687,7 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            margin-left: -50px;
+           
             
     }
 
@@ -710,7 +707,6 @@
         
   
     }
-        
         
     
     
